@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactus</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <META NAME="robots" CONTENT="noindex">
+    <meta name="googlebot" content="noindex">
+</head>
+<body>
+     
+    <nav >
+        <label class="logo">
+            <a href="https://cdainterview.com/">
+            <img src="../images/bemo-logo2.png" width="167" height="100" alt="Site-Logo">
+        </label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="main-nav">
+            
+            <li class="nav_li">
+                <a href="../pages/main.html" >Main</a>
+            </li>
+            
+            <li class="nav_li">
+                <a href="../pages/contactus.php" class="active">Contact US</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="Container">
+        <img class="id" src="../images/contact-us.png" >
+        
+        
+    </div>
+
+    <div class="content">
+        <span style="font-size:17px; font-weight:bold;letter-spacing: 2px; ">BeMo Academic Consulting Inc. </span><br>
+        <span style="font-size:13px; font-weight:bold;letter-spacing: 2px;  "><u>Toll Free</u></span>
+        <span style="font-size:14px;letter-spacing: 2px;  ">1-855-900-BeMo (2366)</span>
+        <span style="font-size:13px; letter-spacing: 2px; "><br></span>
+        <span style="font-size:13px; font-weight:bold; letter-spacing: 2px; "><u>Email</u></span>
+        <span style="font-size:14px; letter-spacing: 2px; ">info@bemoacademicconsulting.com</span>
+
+    </div>
+    <br><br><br><br>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="../BACKEND/contactus.php">
+            <br><br>
+            <p1 class="para1">NAME: *</p1><br>
+            <input style="align-items: center;" name="name" type="text" class="form-control1" required>
+            <br>
+            <p2 class="para2">EMAIL ADDRESS: *</p2><br>
+            <input name="email" type="email" class="form-control2"  required>
+            <br>
+            <p3 class="para3">HOW CAN WE HELP YOU?: *</p3><br>
+            <textarea name="message" required rows="7" class="form-control3"></textarea><br><br><br><br><br><br><br><br><br>
+            <span class="btn">
+            <br>
+            <input class="reset" type="reset" name="RESET" value="RESET"  >
+            <input class="submit" type="submit" name="SUBMIT" value="SUBMIT" >
+            
+            </span>
+            <p1 class="note"><span style="font-weight: bold;text-decoration: underline; font-size: 14px; font-family: Arial, Helvetica, sans-serif;">Note:</span> If you are having difficulties with our contact us form above, send us an email to info@bemoacademicconsulting.com (copy & paste the email address)</p1>
+
+            <br><br><br><br><br>
+
+
+        </form>
+    </div>
+
+
+    
+    <footer class="footer1">
+    
+        <div id="myfoot">
+            ©2013-2016 BeMo Academic Consulting Inc. All rights reserved. <a href="http://www.cdainterview.com/disclaimer-privacy-policy.html" target="_blank"><span style="text-decoration:underline;color: red;">Disclaimer &amp; Privacy Policy</span></a> <a href="mailto:info@bemoacademicconsulting.com" id="rw_email_contact"><span style="text-decoration:underline;color: red;">Contact Us</span></a>
+    
+        </div>
+    
+        <div class="icon">
+            <a class="fa fa-facebook" href="https://www.facebook.com/bemoacademicconsulting"></a>
+            <a class="fa fa-twitter" href="https://twitter.com/BeMo_AC"></a>
+        </div>
+
+  
+    </footer>
+    
+</body>
+
+
+</html>
